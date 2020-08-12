@@ -1,0 +1,36 @@
+body{
+	margin:auto;
+	background: url(../../webimages/library-login-bg.jpg) no-repeat;
+	background-size: cover;
+}
+.menu {
+	background-color:black;
+	opacity:0.8;
+	margin: 40px;
+	height: 40vh;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content:space-around;
+	text-align: center;
+	font-family:arial;
+}
+.menu div{
+	width:30%;
+	background-color: white;
+	margin:40px;
+	
+}
+.menu div a{
+
+	line-height: 6.2;
+	display: block;
+	width:100%;
+	text-decoration: none;
+	font-size:30px;
+}
+.menu div a:hover{
+	
+	background-color:#dc006c;
+	color:white;
+}

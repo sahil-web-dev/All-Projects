@@ -1,0 +1,13 @@
+h3{
+	width:70%;
+    color: #797979;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background:#4D4D4D;
+    font-size: 36px;
+    font-weight: 100;
+    padding:20px;
+    margin:auto;
+    opacity: 0.8;
+}

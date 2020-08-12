@@ -1,0 +1,116 @@
+body {
+  text-align: center;
+}
+
+.masthead {
+    background: #fff;
+    display: flex;
+    height: 64px;
+}
+
+.masthead .logo1 {
+    width: 50%;
+}
+
+.masthead nav {
+    width: 50%;
+}
+
+.masthead nav ul {
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+}
+.masthead nav ul li{
+    font-weight: 700;
+    line-height: 4.25;
+    width: 33%;
+}
+
+.masthead nav ul li a{
+    text-align:center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.masthead nav ul li a:hover{
+    color:  #fff;
+    background: #dc006c;
+}
+
+
+a {
+  color: #dc006c;
+}
+small {
+  color: #333;
+}
+.logo {
+  font: 40px 'Arial Narrow', sans-serif;/* I picked this font because it's the closest looking 'web safe' font http://cssfontstack.com/ */
+  font-weight: 700;
+  color: #2a48cc;
+  background: #fff;
+  text-transform: uppercase;
+  -webkit-margin-before: 0.25em;
+  -webkit-margin-after: 0.25em;
+  letter-spacing: -4px;
+  padding: 0;
+}
+
+/* stuff for both words */
+.logo span {
+  position: relative;
+}
+.logo span:before,
+.logo span:after {
+  content: '';
+  position: absolute;
+  border-width: 10px;/* makes a nice, big 64px square */
+  border-style: solid;
+  border-color: transparent;
+  height: 0;
+  z-index: 10;
+}
+
+/* stuff for 1st word */
+.logo .word1 {
+  color: #dc006c;
+  margin-right: -38px;
+  display: inline-block;/* required for transform */
+  z-index: 10;/* stack 1st word on top */
+}
+.logo .word1:before {
+  right: -4px;/* would be left, but we flipped the word */
+  bottom: 4px;
+  border-bottom-color: #282828;/* match background color */
+  border-right-color: #282828;/* would be left, but we flipped the word */
+}
+.logo .word1:after {
+  left: -6px;/* would be right, but we flipped the word */
+  top: 4px;
+  border-top-color: #282828;
+  border-left-color: #282828;/* would be right, but we flipped the word */
+}
+
+/* stuff for 2nd word */
+.logo .word2 {
+  z-index: 0;/* stack 2nd word below */
+}
+.logo .word2:before {
+  left: -4px;
+  top: -6px;
+  border-top-color: #282828;
+  border-left-color: #282828;
+}
+.logo .word2:after {
+  right: -4px;  
+  bottom: 4px;
+  border-bottom-color: #282828;
+  border-right-color: #282828;
+}

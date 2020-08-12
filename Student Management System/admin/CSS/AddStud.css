@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    background: url(../../webimages/admin-login-bg.jpg) no-repeat;
+     background-size: 100% 100%;
+	
+}
+form{
+    display:flex;
+    flex-wrap: wrap;l
+	text-align: center;
+    justify-content: space-around;
+	color:black;
+	box-shadow:1px;
+    background: #fff;
+    position: absolute;
+    width:80%;
+    height:70vh;
+    left:10%;
+    top:24.54vh;
+}
+.left{
+    width:50%;
+    margin-top: 3%;
+
+}
+.right{
+    width:50%;
+    margin-top: 3%;
+}
+.center{
+    width:100%;
+    margin-top: 0.2%;
+
+
+}
+label{
+    width:20%;
+    display:block;
+    text-align:right;
+}
+h3{
+	color: #797979;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	background:#4D4D4D;
+	font-size: 50px;
+	font-weight: 100;
+	padding:20px;
+	margin:0 auto;
+    width:79%;
+    opacity: 0.8;
+}
+form input[type="submit"]{
+    text-align:center;
+    -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    background-color: #2CBBBB;
+    border: 1px solid #27A0A0;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"]
+{
+
+	color:black;
+    text-align:center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    display: block;
+    width: 80%;
+    margin-left:38px;
+    padding: 7px;
+    border: 1px solid #b8b894;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 30px;
+   }
+a{
+    text-align: right;
+}
